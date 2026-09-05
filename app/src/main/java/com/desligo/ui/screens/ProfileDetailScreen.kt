@@ -79,7 +79,7 @@ fun ProfileDetailScreen(
                             modifier = Modifier.clickable(onClick = onManageApps)
                         )
 
-                        HorizontalDivider()
+                        Divider()
 
                         ListItem(
                             headlineContent = { Text("Bloquear chamadas") },

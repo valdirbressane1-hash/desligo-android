@@ -77,7 +77,7 @@ fun SettingsScreen(
                 modifier = Modifier.clickable(onClick = onPinSetup)
             )
 
-            HorizontalDivider()
+            Divider()
 
             // Device section
             Text(
@@ -94,7 +94,7 @@ fun SettingsScreen(
                 modifier = Modifier.clickable(onClick = onManufacturerGuide)
             )
 
-            HorizontalDivider()
+            Divider()
 
             // About section
             Text(
