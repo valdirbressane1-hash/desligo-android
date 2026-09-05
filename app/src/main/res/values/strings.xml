@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Desligo</string>
+    <string name="vpn_notification_title">Desligo ativo</string>
+    <string name="vpn_notification_text">Apps bloqueados pelo perfil ativo</string>
+    <string name="timer_notification_title">Timer ativo</string>
+    <string name="action_stop">Desativar</string>
+    <string name="action_pause">Pausar</string>
+    <string name="action_resume">Continuar</string>
+    <string name="profile_estudo">Estudo</string>
+    <string name="profile_sono">Sono</string>
+    <string name="profile_trabalho">Trabalho</string>
+    <string name="profile_livre">Livre</string>
+</resources>
