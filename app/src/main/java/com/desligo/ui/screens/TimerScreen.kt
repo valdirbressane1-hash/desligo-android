@@ -60,7 +60,7 @@ fun TimerScreen(onBack: () -> Unit) {
             // Circular progress
             Box(contentAlignment = Alignment.Center, modifier = Modifier.size(240.dp)) {
                 CircularProgressIndicator(
-                    progress = { state.progress },
+                    progress = state.progress,
                     modifier = Modifier.fillMaxSize(),
                     strokeWidth = 8.dp,
                     trackColor = MaterialTheme.colorScheme.surfaceVariant
